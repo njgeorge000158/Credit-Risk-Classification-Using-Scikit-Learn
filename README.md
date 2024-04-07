@@ -23,30 +23,30 @@ To accomplish the analysis, the machine learning process includes the following 
 ## **Results**
 
 ### **Machine Learning Model 1: Logistic Regression with Original Data**
-* Overall Accuracy: 95.2%
+* Overall Accuracy: 96.0%
 * Balanced Accuracy: 99%
 * Precision (Health Loans): 100%
-* Precision (High-risk Loans): 85%
-* Recall (Healthy Loans): 99%
-* Recall (High-risk Loans): 91%
+* Precision (High-risk Loans): 87%
+* Recall (Healthy Loans): 100%
+* Recall (High-risk Loans): 92%
 
-<img width="483" alt="Screenshot 2023-12-08 at 1 52 28 PM" src="https://github.com/njgeorge000158/credit-risk-classification/assets/137228821/aa699f09-e45a-4030-acd7-de834576c262">
+<img width="588" alt="credit_risk2" src="https://github.com/njgeorge000158/Credit-Risk-Classification-with-Logistic-Regression-Using-Scikit-Learn/assets/137228821/f97b7ce0-ad91-48c1-b8fb-17e3c1e87288">
 
 ### **Machine Learning Model 2: Logistic Regression with Resampled Data**
-* Overall Accuracy: 99.4%
+* Overall Accuracy: 99.5%
 * Balanced Accuracy: 99%
 * Precision (Health Loans): 100%
-* Precision (High-risk Loans): 84%
+* Precision (High-risk Loans): 87%
 * Recall (Healthy Loans): 99%
-* Recall (High-risk Loans): 99%
+* Recall (High-risk Loans): 100%
 
-<img width="491" alt="Screenshot 2023-12-08 at 2 12 14 PM" src="https://github.com/njgeorge000158/credit-risk-classification/assets/137228821/3ba7b976-5cac-4154-9247-5a2dec85c37d">
+<img width="571" alt="credit_risk3" src="https://github.com/njgeorge000158/Credit-Risk-Classification-with-Logistic-Regression-Using-Scikit-Learn/assets/137228821/c6b485ae-b5a0-4967-bfe1-31fc129704b5">
 
 ## **Summary**
 
-The first Logistic Regression model does an excellent job predicting healthy loans with a small number of false positives and negatives leading to a precision score of 100%, a recall score of 99%, and an f1-score of 100%.  Nevertheless, this model less accurately predicts high-risk loans with a precision of 85%, a recall of 91%, and an f1-score of 88%. The balanced accuracy, 99%, is higher than the actual accuracy, 95%, because of the significant difference in labels's value counts. The first model's potential for an increase in accuracy and the comparatively inadequate performance in predicting high-risk loans vs. health loans are concerning. Thus, the first model warrants further optimization either by closing the value count gap with additional data or random oversampling: the second model uses the latter to solve this problem.
+The first Logistic Regression model does an excellent job predicting healthy loans with a small number of false positives and negatives leading to a precision score of 100%, a recall score of 100%, and an f1-score of 100%.  Nevertheless, this model less accurately predicts high-risk loans with a precision of 87%, a recall of 92%, and an f1-score of 90%. The balanced accuracy, 99%, is higher than the actual accuracy, 96%, because of the significant difference in labels's value counts. The first model's potential for an increase in accuracy and the comparatively inadequate performance in predicting high-risk loans vs. health loans are concerning. Thus, the first model warrants further optimization either by closing the value count gap with additional data or random oversampling: the second model uses the latter to solve this problem.
 
-In terms of accuracy, the second Logistic Regression model with random oversampling matches the first model for predicting healthy loans and outperforms it for high-risk loans. For instance, the number of accepted healthy loans falls (18,663 to 18,649); the number of rejected high-risk loans expands (563 to 615); the number of false positives increases slightly (102 to 116); and the number of false negatives significantly drops (56 to 4). Moreover, using random oversampling to generate additional synthetic samples for the minority label class eliminates the labels's value count discrepancy leading to, among other things, the balanced accuracy score matching the overall accuracy score, 99%. For healthy loans, both models have 100% precision, 99% recall, and 100% f1-scores; for high-risk loans, although the precision, 85%, declines by 1% to 84%, the recall, 92%, increases by 8% to 99%, and the f1-score, 88%, increases by 3% to 91%. Consequently, using random oversampling with the Logistic Regression model maintains its identification of healthy loans while improving its identification of high-risk loans.
+In terms of accuracy, the second Logistic Regression model with random oversampling matches the first model for predicting healthy loans and outperforms it for high-risk loans. For instance, the number of accepted healthy loans falls (18,642 to 18,632); the number of rejected high-risk loans expands (604 to 650); the number of false positives increases slightly (89 to 99); and the number of false negatives significantly drops (49 to 3). Moreover, using random oversampling to generate additional synthetic samples for the minority label class eliminates the labels's value count discrepancy leading to, among other things, the balanced accuracy score matching the overall accuracy score, 99%. For healthy loans, both models have 100% precision, 99% recall, and 100% f1-scores; for high-risk loans, although the precision, 87%, remains the same, the recall, 92%, increases by 8% to 100%, and the f1-score, 90%, increases by 3% to 93%. Consequently, using random oversampling with the Logistic Regression model maintains its identification of healthy loans while improving its identification of high-risk loans.
 
 ----
 
