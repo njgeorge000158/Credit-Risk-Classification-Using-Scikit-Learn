@@ -1,4 +1,4 @@
-![credit-risk-workflow-automation-768x512](https://github.com/njgeorge000158/credit-risk-classification/assets/137228821/03beeaa5-d44d-40bd-8ec8-6c716204189d)
+![credit_risk1](https://github.com/njgeorge000158/Credit-Risk-Classification-with-Logistic-Regression-Using-Scikit-Learn/assets/137228821/76c5a095-a7e3-47be-b161-d95e602b739c)
 
 ----
 
