@@ -1,4 +1,4 @@
-This folder holds the input file for the IPython Notebook, credit_risk_classification.ipynb.
+This folder holds the input/output files for the Google Colab Notebooks, credit_risk_colab.ipynb and credit_risk_hyperparameters_optimization.ipynb.
 
 ----
 
