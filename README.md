@@ -24,7 +24,7 @@ Here is a comparison of the top three models:
 
 <img width="453" alt="Screenshot 2024-04-30 at 9 58 33 AM" src="https://github.com/njgeorge000158/Credit-Risk-Classification-Using-Scikit-Learn/assets/137228821/2e2b5fec-e2e7-44f1-aa7b-725438d976c9">
 
-The tabulation of the overall accuracy of all the models produced the following rankings:
+The tabulation of these models' overall accuracies produced the following rankings:
 
 ![credit_risk_classification_colabTable972ModelPerformanceRankings](https://github.com/njgeorge000158/Credit-Risk-Classification-Using-Scikit-Learn/assets/137228821/51b28a26-a303-4aa3-a66f-8ca834fc5cae)
 
