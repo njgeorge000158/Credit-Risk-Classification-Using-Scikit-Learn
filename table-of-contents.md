@@ -6,54 +6,336 @@
 
 ----
 
-# <br><br> **Section 1: Visit the Mars News Website**
-> ## <br> **1.1: Request the Webpage**
-> ## <br> **1.2: Parse Text with Beautiful Soup**
-> ## <br> **1.3: Scrape the News Articles**
-# <br><br> **Section 2: Store the Results**
-> ## <br> **2.1: Storage in Dictionary List**
-> ## <br> **2.2: Display Dictionary List**
-> ## <br> **2.3: Export Dictionary List to JSON File**
+# <br><br> **Section 1: Extraction and Transformation**
+> ## <br> **1.1: Read the CSV data into a Pandas DataFrame**
+> ## <br> **1.2: Display Spam DataFrame**
+> ## <br> **1.3: Create the labels series (y) from the “spam” column, and then create the features (X) DataFrame from the remaining columns.**
+>> ### **Separate the Y Variable, The Labels**
+>> ### **Review the Y Series**
+>> ### **Check the Balance of the Labels Variable (y) by Using the value_counts Function.**
+>> ### **Separate the X Variable, the Features**
+>> ### **Review the X DataFrame**
+> ## <br> **1.4: Split the Data into Training and Testing Datasets by Using train_test_split.**
+> ## <br> **1.5: Use the StandardScaler to Scale the X Variables**
+>> ### **Scale Training and Test Data as Numpy Arrays**
+>> ### **Create Scaled X Variable DataFrames**
+>> ### **Display Scaled Training and Testing Data**
+# <br><br> **Section 2: Undersampled and OverSampled Spam Data**
+> ## <br> **2.1: Instantiate the Random Undersampler Instance**
+> ## <br> **2.2: Instantiate the Random Oversampler Instance**
+> ## <br> **2.4: Instantiate the SMOTE Instance**
+> ## <br> **2.5: Instantiate the SMOTEENN Instance**
+> ## <br> **2.6: Check the Balance of the Labels Variable (y) by Using the value_counts Function.**
+> ## <br> **2.7: Display Normalized Resampled Training and Testing Data**
+# <br><br> **Section 3: Logistic Regression Models**
+> ## <br> **3.1: Fit Models by Using the Scaled Training Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **3.2: Display the Model Scores Using the Scaled Training and Testing Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **3.3: Calculate Training and Test Predictions**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+# <br><br> **Section 4: Decision Tree Models**
+> ## <br> **4.1: Fit Models by Using the Scaled Training Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.2: Display the Model Scores Using the Scaled Training and Testing Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.3: Calculate Training and Test Predictions**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+# <br><br> **Section 5: Random Forest Models**
+> ## <br> **5.1: Fit Models by Using the Scaled Training Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **5.2: Display the Model Scores Using the Scaled Training and Testing Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **5.3: Calculate Training and Test Predictions**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+# <br><br> **Section 6: Support Vector Machine (SVM) Models**
+> ## <br> **6.1: Fit Models by Using the Scaled Training Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **6.2: Display the Model Scores Using the Scaled Training and Testing Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **6.3: Calculate Training and Test Predictions**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+# <br><br> **Section 7: K-Nearest Neighbor (KNN) Models**
+> ## <br> **7.1: Fit Models by Using the Scaled Training Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **7.2: Display the Model Scores Using the Scaled Training and Testing Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **7.3: Calculate Training and Test Predictions**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+# <br><br> **Section 8: Gaussian Naive Bayes (GNB) Models**
+> ## <br> **8.1: Fit Models by Using the Scaled Training Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **8.2: Display the Model Scores Using the Scaled Training and Testing Data**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **8.3: Calculate Training and Test Predictions**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+# <br><br> **Section 9: Evaluate Model Performance**
+> ## <br> **9.1: Logistic Regression**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **9.2: Decision Tree**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **9.3: Random Forest**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **9.4: Support Vector Machine (SVM)**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **9.5: K-Nearest Neighbor (KNN)**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **9.6: Gaussian Naive Bayes (GNB)**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **9.7: Model Performance Results**
+>> ### **Performance Matrix**
+>> ### **Performance Ranking**
+# <br><br> **Section 10: Save Models To Files**
+> ## <br> **4.1: Logistic Regression**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.2: Decision Tree**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.3: Random Forest**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.4: Support Vector Machine (SVM)**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.5: K-Nearest Neighbor (KNN)**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.6: Gaussian Naive Bayes (GNB))**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
 
 ----
 
-## Table of Contents (MarsWeatherPy.ipynb)
+## Table of Contents (credit_risk_hyperparameters_optimization_colab)
 
 ----
 
-# <br><br> **Section 1: Visit the Mars Temperature Data Website**
-> ## <br> **1.1: Request the Webpage**
-> ## <br> **1.2: Parse Text with Beautiful Soup**
-> ## <br> **1.3: Scrape the Table of Temperatures**
-# <br><br> **Section 2: Store the Table Information**
-> ## <br> **2.1: Header Text Extraction**
-> ## <br> **2.2: Weather Informaton Text Extraction**
-> ## <br> **2.3: Mars Weather DataFrame**
-> ## <br> **2.4: Display Mars Weather DataFrame**
-# <br><br> **Section 3: Preprocessing**
-> ## <br> **3.1: Current Mars Weather Data Type Examination**
-> ## <br> **3.2: Data Type Conversion**
-> ## <br> **3.3: Data Type Change Confirmation**
-# <br><br> **Section 4: Data Analysis**
-> ## <br> **4.1 -- How many months exist on Mars?**
-> ## <br> **4.2 -- How many Martian days' worth of data exist in the scraped data set?**
-> ## <br> **4.3 -- What is the average minimum daily temperature by month?**
->> ### **Average Minimum Daily Temperature By Month**
->> ### **Display Average Minimum Daily Temperature By Month**
->> ### **Coldest Month in Curiosity's Location**
->> ### **Warmest Month in Curiosity's Location**
-> ## <br> **4.4 -- What is the average daily atmospheric pressure by month?**
->> ### **Month with the Lowest Average Daily Atmospheric Pressure in Curiosity's Location**
->> ### **Month with the Highest Average Daily Atmospheric Pressure in Curiosity's Location**
-> ## <br> **4.5 -- How many terrestrial (Earth) days are there in a Martian year?**
->> ### **Solar Longitude**
->> ### **Solar Longitude Peaks**
->> ### **Earth Days in a Martian Year from Solar Longitude**
->> ### **Display Minimum Daily Temperature vs. Earth Time**
->> ### **Calculation of Minimum Daily Temperature Peaks**
->> ### **Display Minimum Daily Temperature vs. Earth Time with Labeled Peaks**
->> ### **Earth Days in a Martian Year from Minimum Daily Temperature Peaks**
-> ## <br> **4.6: Export DataFrame to CSV file**
+# <br><br> **Section 1: Extraction and Transformation**
+> ## <br> **1.1: Read the CSV data into a Pandas DataFrame**
+> ## <br> **1.2: Display Spam DataFrame**
+> ## <br> **1.3: Create the labels series (y) from the “spam” column, and then create the features (X) DataFrame from the remaining columns.**
+>> ### **Separate the Y Variable, The Labels**
+>> ### **Review the Y Series**
+>> ### **Check the Balance of the Labels Variable (y) by Using the value_counts Function.**
+>> ### **Separate the X Variable, the Features**
+>> ### **Review the X DataFrame**
+> ## <br> **1.4: Split the Data into Training and Testing Datasets by Using train_test_split.**
+> ## <br> **1.5: Use the StandardScaler to Scale the X Variables**
+>> ### **Scale Training and Test Data as Numpy Arrays**
+>> ### **Create Scaled X Variable DataFrames**
+>> ### **Display Scaled Training and Testing Data**
+# <br><br> **Section 2: Undersampled and OverSampled Spam Data**
+> ## <br> **2.1: Instantiate the Random Undersampler Instance**
+> ## <br> **2.2: Instantiate the Random Oversampler Instance**
+> ## <br> **2.4: Instantiate the SMOTE Instance**
+> ## <br> **2.5: Instantiate the SMOTEENN Instance**
+> ## <br> **2.6: Check the Balance of the Labels Variable (y) by Using the value_counts Function.**
+> ## <br> **2.7: Display Normalized Resampled Training and Testing Data**
+# <br><br> **Section 3: Model Optimization**
+> ## <br> **3.1: Logistic Regression**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **3.2: Decision Tree**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **3.3: Random Forest**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **3.4: K-Nearest Neighbor (KNN)**
+>> ### **Original**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+# <br><br> **Section 4: Save Grid Search Models To Files**
+> ## <br> **4.1: Logistic Regression**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.2: Decision Tree**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.3: Random Forest**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.4: Support Vector Machine (SVM)**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.5: K-Nearest Neighbor (KNN)**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
+> ## <br> **4.6: Gaussian Naive Bayes (GNB))**
+>> ### **Random Undersampling**
+>> ### **Random Oversampling**
+>> ### **Cluster Centroids**
+>> ### **SMOTE**
+>> ### **SMOTEEN**
 
 ----
 
