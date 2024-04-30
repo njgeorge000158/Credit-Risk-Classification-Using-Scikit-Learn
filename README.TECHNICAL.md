@@ -1,4 +1,4 @@
-# **Credit Risk Classification using Logistic Regression**
+# **Credit Risk Classification Using Scikit-Learn**
 
 ----
 
