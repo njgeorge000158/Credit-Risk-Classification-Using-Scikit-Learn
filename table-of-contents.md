@@ -206,37 +206,37 @@
 >> ### **Performance Matrix**
 >> ### **Performance Ranking**
 # <br><br> **Section 10: Save Models To Files**
-> ## <br> **4.1: Logistic Regression**
+> ## <br> **10.1: Logistic Regression**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
 >> ### **SMOTEEN**
-> ## <br> **4.2: Decision Tree**
+> ## <br> **10.2: Decision Tree**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
 >> ### **SMOTEEN**
-> ## <br> **4.3: Random Forest**
+> ## <br> **10.3: Random Forest**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
 >> ### **SMOTEEN**
-> ## <br> **4.4: Support Vector Machine (SVM)**
+> ## <br> **10.4: Support Vector Machine (SVM)**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
 >> ### **SMOTEEN**
-> ## <br> **4.5: K-Nearest Neighbor (KNN)**
+> ## <br> **10.5: K-Nearest Neighbor (KNN)**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
 >> ### **SMOTEEN**
-> ## <br> **4.6: Gaussian Naive Bayes (GNB))**
+> ## <br> **10.6: Gaussian Naive Bayes (GNB))**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
@@ -318,19 +318,7 @@
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
 >> ### **SMOTEEN**
-> ## <br> **4.4: Support Vector Machine (SVM)**
->> ### **Random Undersampling**
->> ### **Random Oversampling**
->> ### **Cluster Centroids**
->> ### **SMOTE**
->> ### **SMOTEEN**
-> ## <br> **4.5: K-Nearest Neighbor (KNN)**
->> ### **Random Undersampling**
->> ### **Random Oversampling**
->> ### **Cluster Centroids**
->> ### **SMOTE**
->> ### **SMOTEEN**
-> ## <br> **4.6: Gaussian Naive Bayes (GNB))**
+> ## <br> **4.4: K-Nearest Neighbor (KNN)**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
