@@ -1,8 +1,8 @@
-# Mars-News-and-Weather-Analysis-from-Web-Scraping
+# Credit-Risk-Classification-Using-Scikit-Learn
 
 ----
 
-## Table of Contents (mars_news.ipynb)
+## Table of Contents (credit_risk_classification_colab.ipynb)
 
 ----
 
