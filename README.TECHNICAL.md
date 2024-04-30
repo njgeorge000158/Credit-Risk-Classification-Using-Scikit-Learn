@@ -6,25 +6,7 @@
 
 ----
 
-If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, the IPython notebook already has the following dependencies installed: datetime, io, json, matplotlib, numpy, pandas, pathlib, os, pandas, requests, requests_html, scipy.
-
-In addition to those modules, the IPython notebook needs the following to execute: holoviews, hvplot, geoviews, geopy, aspose-words, dataframe-image, sklearn.
-
-Here are the requisite Terminal commands for the installation of these peripheral modules:
-
-pip3 install -U holoviews
-
-pip3 install -U hvplot
-
-pip3 install -U geoviews
-
-pip3 install -U geopy
-
-pip3 install -U aspose-words
-
-pip3 install -U dataframe-image
-
-pip3 install -U scikit-learn
+This project only requires running the Google Colab Notebook, crypto_clustering_colab.ipynb.
 
 ----
 
@@ -32,19 +14,17 @@ pip3 install -U scikit-learn
 
 ----
 
-The IPython notebook, credit_risk_classification.ipynb, requires the following Python scripts with it in the same folder:
+The Google Colab Notebook, credit_risk_classification_colab.ipynb, requires the following Python scripts with it in the same folder:
 
-credit_risk_classification_functions.py
+credit_risk_constants.py
 
-log_constants.py
+logx.py
 
-log_functions.py
+pandasx.py
 
-log_subroutines.py
+timex.py
 
-pandas_process_functions.py
-
-If the folders, logs and images, are not present, the IPython notebook will create them.  The IPython notebook, credit_risk_classification.ipynb, needs the csv file, lending_data.csv, in the folder, resources, to execute. To place the IPython notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. If the program is in Log Mode, it writes information to the log file. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files in the Images Folder.
+If the folders, logs and images, are not present, the Google Colab Notebook will create them.  The Google Colab Notebook, credit_risk_classification_colab.ipynb, needs the csv file, lending_data.csv, in the folder, resources, to execute. To place the Google Colab Notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. If the program is in Log Mode, it writes information to the log file. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files in the Images Folder.
 
 ----
 
@@ -54,7 +34,7 @@ If the folders, logs and images, are not present, the IPython notebook will crea
 
 #### Source code
 
-credit_risk_classification.ipynb, credit_risk_classification_functions.py, log_constants.py, log_functions.py, log_subroutines.py, pandas_process_functions.py
+credit_risk_classification_colab.ipynb, credit_risk_constants.py, logx.py, pandasx.py, timex.py
 
 #### Input files
 
@@ -82,17 +62,9 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 #### main branch 
 
-|&rarr; [./credit_risk_classification.ipynb](./credit_risk_classification.ipynb)
+|&rarr; [./credit_risk_classification_colab.ipynb](./credit_risk_classification_colab.ipynb)
 
-|&rarr; [./credit_risk_classification_functions.py](./credit_risk_classification_functions.py)
-
-|&rarr; [./log_constants.py](./log_constants.py)
-
-|&rarr; [./log_functions.py](./log_functions.py)
-
-|&rarr; [./log_subroutines.py](./log_subroutines.py)
-
-|&rarr; [./pandas_process_functions.py](./pandas_process_functions.py)
+|&rarr; [./credit_risk_constants.py](./credit_risk_constants.py)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 
@@ -100,29 +72,185 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./images/](./images/)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable11LendingDataTable.png](./images/credit_risk_classificationTable11LendingDataTable.png)
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable11LendingDataTable.png](./images/credit_risk_classification_colabTable11LendingDataTable.png)
   
-  &emsp; |&rarr; [./images/credit_risk_classificationTable22TestingDataLabelPredictionsOriginal.png](./images/credit_risk_classificationTable22TestingDataLabelPredictionsOriginal.png)
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable131CreditRiskTargetSeries.png](./images/credit_risk_classification_colabTable131CreditRiskTargetSeries.png)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable32TestingDataLabelPredictionsResampled.png](./images/credit_risk_classificationTable32TestingDataLabelPredictionsResampled.png)
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable132CreditRiskFeaturesDataFrame.png](./images/credit_risk_classification_colabTable132CreditRiskFeaturesDataFrame.png)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable121YVariableSeries.png](./images/credit_risk_classificationTable121YVariableSeries.png)
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable151CreditRiskScaledFeaturesTrainingData.png](./images/credit_risk_classification_colabTable151CreditRiskScaledFeaturesTrainingData.png)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable122XVariableDataFrame.png](./images/credit_risk_classificationTable122XVariableDataFrame.png)
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable152CreditRiskScaledFeaturesTestData.png](./images/credit_risk_classification_colabTable152CreditRiskScaledFeaturesTestData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable271ScaledFeaturesTrainingUndersampledData.png](./images/credit_risk_classification_colabTable271ScaledFeaturesTrainingUndersampledData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable272ScaledFeaturesTrainingOversampledData.png](./images/credit_risk_classification_colabTable272ScaledFeaturesTrainingOversampledData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png](./images/credit_risk_classification_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable274ScaledFeaturesTrainingSMOTEData.png](./images/credit_risk_classification_colabTable274ScaledFeaturesTrainingSMOTEData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable275ScaledFeaturesTrainingSMOTEENNData.png](./images/credit_risk_classification_colabTable275ScaledFeaturesTrainingSMOTEENNData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable971ModelPerformanceMatrix.png](./images/credit_risk_classification_colabTable971ModelPerformanceMatrix.png)
+
+  &emsp; |&rarr; [./images/credit_risk_classification_colabTable972ModelPerformanceRankings.png](./images/credit_risk_classification_colabTable972ModelPerformanceRankings.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable12LendingDataTable.png](./images/credit_risk_hyperparameters_optimization_colabTable12LendingDataTable.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable131LendingTargetSeries.png](./images/credit_risk_hyperparameters_optimization_colabTable131LendingTargetSeries.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable132LendingFeaturesDataFrame.png](./images/credit_risk_hyperparameters_optimization_colabTable132LendingFeaturesDataFrame.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable151LendingScaledFeaturesTrainingData.png](./images/credit_risk_hyperparameters_optimization_colabTable151LendingScaledFeaturesTrainingData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable152LendingScaledFeaturesTestData.png](./images/credit_risk_hyperparameters_optimization_colabTable152LendingScaledFeaturesTestData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable271ScaledFeaturesTrainingUndersampledData.png](./images/credit_risk_hyperparameters_optimization_colabTable271ScaledFeaturesTrainingUndersampledData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable272ScaledFeaturesTrainingOversampledData.png](./images/credit_risk_hyperparameters_optimization_colabTable272ScaledFeaturesTrainingOversampledData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png](./images/credit_risk_hyperparameters_optimization_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable274ScaledFeaturesTrainingSMOTEData.png](./images/credit_risk_hyperparameters_optimization_colabTable274ScaledFeaturesTrainingSMOTEData.png)
+
+  &emsp; |&rarr; [./images/credit_risk_hyperparameters_optimization_colabTable275ScaledFeaturesTrainingSMOTEENNData.png](./images/credit_risk_hyperparameters_optimization_colabTable275ScaledFeaturesTrainingSMOTEENNData.png)
 
   &emsp; |&rarr; [./images/README.md](./images/README.md)
   
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240407credit_risk_classification_log.txt](./logs/20240407credit_risk_classification_log.txt)
+  &emsp; |&rarr; [./logs/20240429credit_risk_hyperparameters_optimization_colab_log.txt](./logs/20240429credit_risk_hyperparameters_optimization_colab_log.txt)
+
+  &emsp; |&rarr; [./logs/20240430credit_risk_classification_colab_log.txt](./logs/20240430credit_risk_classification_colab_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 
 |&rarr; [./resources/](./resources/)
 
+  &emsp; |&rarr; [./resources/dt_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/dt_CLUSTER_CENTROIDS_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_CLUSTER_CENTROIDS_model.sav](./resources/dt_CLUSTER_CENTROIDS_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_grid_search_model.sav](./resources/dt_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_model.sav](./resources/dt_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_OVERSAMPLED_grid_search_model.sav](./resources/dt_OVERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_OVERSAMPLED_model.sav](./resources/dt_OVERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_SMOTE_grid_search_model.sav](./resources/dt_SMOTE_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_SMOTE_model.sav](./resources/dt_SMOTE_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_SMOTEENN_grid_search_model.sav](./resources/dt_SMOTEENN_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_SMOTEENN_model.sav](./resources/dt_SMOTEENN_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_UNDERSAMPLED_grid_search_model.sav](./resources/dt_UNDERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_UNDERSAMPLED_model.sav](./resources/dt_UNDERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_CLUSTER_CENTROIDS_model.sav](./resources/gnb_CLUSTER_CENTROIDS_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_model.sav](./resources/gnb_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_OVERSAMPLED_model.sav](./resources/gnb_OVERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_SMOTE_model.sav](./resources/gnb_SMOTE_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_SMOTEENN_model.sav](./resources/gnb_SMOTEENN_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_UNDERSAMPLED_model.sav](./resources/gnb_UNDERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/knn_CLUSTER_CENTROIDS_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_CLUSTER_CENTROIDSs_model.sav](./resources/knn_CLUSTER_CENTROIDSs_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_grid_search_model.sav](./resources/knn_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_model.sav](./resources/knn_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_OVERSAMPLED_grid_search_model.sav](./resources/knn_OVERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_OVERSAMPLED_model.sav](./resources/knn_OVERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_SMOTE_grid_search_model.sav](./resources/knn_SMOTE_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_SMOTE_model.sav](./resources/knn_SMOTE_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_SMOTEENN_grid_search_model.sav](./resources/knn_SMOTEENN_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_SMOTEENN_model.sav](./resources/knn_SMOTEENN_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_UNDERSAMPLED_grid_search_model.sav](./resources/knn_UNDERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_UNDERSAMPLED_model.sav](./resources/knn_UNDERSAMPLED_model.sav)
+
   &emsp; |&rarr; [./resources/lending_data.csv](./resources/lending_data.csv)
 
+  &emsp; |&rarr; [./resources/lr_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/lr_CLUSTER_CENTROIDS_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_CLUSTER_CENTROIDS_model.sav](./resources/lr_CLUSTER_CENTROIDS_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_grid_search_model.sav](./resources/lr_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_model.sav](./resources/lr_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_OVERSAMPLED_grid_search_model.sav](./resources/lr_OVERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_OVERSAMPLED_model.sav](./resources/lr_OVERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_SMOTE_grid_search_model.sav](./resources/lr_SMOTE_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_SMOTE_model.sav](./resources/lr_SMOTE_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_SMOTEENN_grid_search_model.sav](./resources/lr_SMOTEENN_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_SMOTEENN_model.sav](./resources/lr_SMOTEENN_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_UNDERSAMPLED_grid_search_model.sav](./resources/lr_UNDERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_UNDERSAMPLED_model.sav](./resources/lr_UNDERSAMPLED_model.sav)
+
   &emsp; |&rarr; [./resources/README.md](./resources/README.md)
+
+  &emsp; |&rarr; [./resources/rf_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/rf_CLUSTER_CENTROIDS_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_CLUSTER_CENTROIDS_model.sav](./resources/rf_CLUSTER_CENTROIDS_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_grid_search_model.sav](./resources/rf_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_model.sav](./resources/rf_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_OVERSAMPLED_grid_search_model.sav](./resources/rf_OVERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_OVERSAMPLED_model.sav](./resources/rf_OVERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_SMOTE_grid_search_model.sav](./resources/rf_SMOTE_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_SMOTE_model.sav](./resources/rf_SMOTE_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_SMOTEENN_grid_search_model.sav](./resources/rf_SMOTEENN_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_SMOTEENN_model.sav](./resources/rf_SMOTEENN_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_UNDERSAMPLED_grid_search_model.sav](./resources/rf_UNDERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_UNDERSAMPLED_model.sav](./resources/rf_UNDERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_CLUSTER_CENTROIDS_model.sav](./resources/svm_CLUSTER_CENTROIDS_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_model.sav](./resources/svm_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_OVERSAMPLED_model.sav](./resources/svm_OVERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_SMOTE_model.sav](./resources/svm_SMOTE_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_SMOTEENN_model.sav](./resources/svm_SMOTEENN_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_UNDERSAMPLED_model.sav](./resources/svm_UNDERSAMPLED_model.sav)
 
 ----
 
