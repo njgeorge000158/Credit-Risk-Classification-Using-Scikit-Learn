@@ -53,13 +53,13 @@ CONSTANT_LR_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/lr_grid_search_model.sav'
 
 CONSTANT_LR_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/lr_undersampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/lr_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_LR_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/lr_oversampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/lr_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_LR_cluster_cluster_centroids_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/lr_cluster_cluster_centroids_grid_search_model.sav'
+CONSTANT_LR_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/lr_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_LR_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/lr_SMOTE_grid_search_model.sav'
@@ -72,13 +72,13 @@ CONSTANT_DT_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/dt_grid_search_model.sav'
 
 CONSTANT_DT_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/dt_undersampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/dt_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_DT_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/dt_oversampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/dt_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_DT_cluster_cluster_centroids_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/dt_cluster_cluster_centroids_grid_search_model.sav'
+CONSTANT_DT_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/dt_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_DT_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/dt_SMOTE_grid_search_model.sav'
@@ -91,13 +91,13 @@ CONSTANT_RF_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/rf_grid_search_model.sav'
 
 CONSTANT_RF_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/rf_undersampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/rf_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_RF_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/rf_oversampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/rf_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_RF_cluster_cluster_centroids_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/rf_cluster_cluster_centroids_grid_search_model.sav'
+CONSTANT_RF_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/rf_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_RF_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/rf_SMOTE_grid_search_model.sav'
@@ -110,13 +110,13 @@ CONSTANT_SVM_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/svm_grid_search_model.sav'
 
 CONSTANT_SVM_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/svm_undersampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/svm_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_SVM_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/svm_oversampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/svm_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_SVM_cluster_cluster_centroids_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/svm_cluster_cluster_centroids_grid_search_model.sav'
+CONSTANT_SVM_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/svm_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_SVM_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/svm_SMOTE_grid_search_model.sav'
@@ -129,13 +129,13 @@ CONSTANT_KNN_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/knn_grid_search_model.sav'
 
 CONSTANT_KNN_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/knn_undersampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/knn_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_KNN_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/knn_oversampled_grid_search_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/knn_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_KNN_cluster_cluster_centroids_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/knn_cluster_cluster_centroids_grid_search_model.sav'
+CONSTANT_KNN_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/knn_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_KNN_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/knn_SMOTE_grid_search_model.sav'
@@ -151,13 +151,13 @@ CONSTANT_LR_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/lr_model.sav'
 
 CONSTANT_LR_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/lr_undersampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/lr_UNDERSAMPLED_model.sav'
 
 CONSTANT_LR_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/lr_oversampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/lr_OVERSAMPLED_model.sav'
 
-CONSTANT_LR_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/lr_cluster_centroids_model.sav'
+CONSTANT_LR_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/lr_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_LR_SMOTE_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/lr_SMOTE_model.sav'
@@ -170,13 +170,13 @@ CONSTANT_DT_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/dt_model.sav'
 
 CONSTANT_DT_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/dt_undersampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/dt_UNDERSAMPLED_model.sav'
 
 CONSTANT_DT_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/dt_oversampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/dt_OVERSAMPLED_model.sav'
 
-CONSTANT_DT_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/dt_cluster_centroids_model.sav'
+CONSTANT_DT_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/dt_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_DT_SMOTE_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/dt_SMOTE_model.sav'
@@ -189,13 +189,13 @@ CONSTANT_RF_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/rf_model.sav'
 
 CONSTANT_RF_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/rf_undersampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/rf_UNDERSAMPLED_model.sav'
 
 CONSTANT_RF_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/rf_oversampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/rf_OVERSAMPLED_model.sav'
 
-CONSTANT_RF_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/rf_cluster_centroids_model.sav'
+CONSTANT_RF_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/rf_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_RF_SMOTE_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/rf_SMOTE_model.sav'
@@ -208,13 +208,13 @@ CONSTANT_SVM_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/svm_model.sav'
 
 CONSTANT_SVM_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/svm_undersampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/svm_UNDERSAMPLED_model.sav'
 
 CONSTANT_SVM_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/svm_oversampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/svm_OVERSAMPLED_model.sav'
 
-CONSTANT_SVM_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/svm_cluster_centroids_model.sav'
+CONSTANT_SVM_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/svm_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_SVM_SMOTE_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/svm_SMOTE_model.sav'
@@ -227,13 +227,13 @@ CONSTANT_KNN_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/knn_model.sav'
 
 CONSTANT_KNN_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/knn_undersampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/knn_UNDERSAMPLED_model.sav'
 
 CONSTANT_KNN_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/knn_oversampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/knn_OVERSAMPLED_model.sav'
 
-CONSTANT_KNN_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/knn_cluster_centroids_model.sav'
+CONSTANT_KNN_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/knn_CLUSTER_CENTROIDSs_model.sav'
 
 CONSTANT_KNN_SMOTE_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/knn_SMOTE_model.sav'
@@ -246,13 +246,13 @@ CONSTANT_GNB_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/gnb_model.sav'
 
 CONSTANT_GNB_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/gnb_undersampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/gnb_UNDERSAMPLED_model.sav'
 
 CONSTANT_GNB_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/gnb_oversampled_model.sav'
+    = './gdrive/MyDrive/credit_risk_classification/resources/gnb_OVERSAMPLED_model.sav'
 
-CONSTANT_GNB_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/credit_risk_classification/resources/gnb_cluster_centroids_model.sav'
+CONSTANT_GNB_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './gdrive/MyDrive/credit_risk_classification/resources/gnb_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_GNB_SMOTE_MODEL_FILE_PATH \
     = './gdrive/MyDrive/credit_risk_classification/resources/gnb_SMOTE_model.sav'
