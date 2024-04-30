@@ -50,9 +50,9 @@ n/a
 
 #### Software
 
-Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
+Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ----
 
@@ -258,7 +258,7 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 ----
 
-[Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
+[imbalanced-learn documentation](https://imbalanced-learn.org/stable/)
 
 [Matplotlib Documentation](https://matplotlib.org/stable/index.html)
 
