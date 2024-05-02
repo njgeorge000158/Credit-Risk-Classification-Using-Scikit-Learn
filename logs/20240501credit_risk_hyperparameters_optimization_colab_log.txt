@@ -1,0 +1,655 @@
+
+Timepoint: 2024/05/01 17:18:11
+Program execution begins...
+
+
+
+
+       loan_size  interest_rate  borrower_income  debt_to_income  \
+0        10700.0          7.672            52800        0.431818   
+1         8400.0          6.692            43600        0.311927   
+2         9000.0          6.963            46100        0.349241   
+3        10700.0          7.664            52700        0.430740   
+4        10800.0          7.698            53000        0.433962   
+...          ...            ...              ...             ...   
+77531    19100.0         11.261            86600        0.653580   
+77532    17700.0         10.662            80900        0.629172   
+77533    17600.0         10.595            80300        0.626401   
+77534    16300.0         10.068            75300        0.601594   
+77535    15600.0          9.742            72300        0.585062   
+
+       num_of_accounts  derogatory_marks  total_debt  loan_status  
+0                    5                 1       22800            0  
+1                    3                 0       13600            0  
+2                    3                 0       16100            0  
+3                    5                 1       22700            0  
+4                    5                 1       23000            0  
+...                ...               ...         ...          ...  
+77531               12                 2       56600            1  
+77532               11                 2       50900            1  
+77533               11                 2       50300            1  
+77534               10                 2       45300            1  
+77535                9                 2       42300            1  
+
+[77536 rows x 8 columns]
+
+
+
+0        0
+1        0
+2        0
+3        0
+4        0
+        ..
+77531    1
+77532    1
+77533    1
+77534    1
+77535    1
+Name: loan_status, Length: 77536, dtype: int64
+
+
+
+       loan_size  interest_rate  borrower_income  debt_to_income  \
+0        10700.0          7.672            52800        0.431818   
+1         8400.0          6.692            43600        0.311927   
+2         9000.0          6.963            46100        0.349241   
+3        10700.0          7.664            52700        0.430740   
+4        10800.0          7.698            53000        0.433962   
+...          ...            ...              ...             ...   
+77531    19100.0         11.261            86600        0.653580   
+77532    17700.0         10.662            80900        0.629172   
+77533    17600.0         10.595            80300        0.626401   
+77534    16300.0         10.068            75300        0.601594   
+77535    15600.0          9.742            72300        0.585062   
+
+       num_of_accounts  derogatory_marks  total_debt  
+0                    5                 1       22800  
+1                    3                 0       13600  
+2                    3                 0       16100  
+3                    5                 1       22700  
+4                    5                 1       23000  
+...                ...               ...         ...  
+77531               12                 2       56600  
+77532               11                 2       50900  
+77533               11                 2       50300  
+77534               10                 2       45300  
+77535                9                 2       42300  
+
+[77536 rows x 7 columns]
+
+
+
+       loan_size  interest_rate  borrower_income  debt_to_income  \
+65792     9100.0          6.996            46400        0.353448   
+16761     8600.0          6.760            44200        0.321267   
+53880    10600.0          7.638            52500        0.428571   
+26598     8600.0          6.787            44500        0.325843   
+49443     7700.0          6.414            41000        0.268293   
+...          ...            ...              ...             ...   
+42104     9900.0          7.314            49400        0.392713   
+63856     9600.0          7.213            48500        0.381443   
+8964      9600.0          7.203            48400        0.380165   
+71480    10500.0          7.603            52200        0.425287   
+70863    10600.0          7.640            52500        0.428571   
+
+       num_of_accounts  derogatory_marks  total_debt  
+65792                3                 0       16400  
+16761                3                 0       14200  
+53880                5                 1       22500  
+26598                3                 0       14500  
+49443                2                 0       11000  
+...                ...               ...         ...  
+42104                4                 0       19400  
+63856                4                 0       18500  
+8964                 4                 0       18400  
+71480                4                 1       22200  
+70863                5                 1       22500  
+
+[58152 rows x 7 columns]
+
+
+
+       loan_size  interest_rate  borrower_income  debt_to_income  \
+50304     9500.0          7.178            48100        0.376299   
+25218     9900.0          7.335            49600        0.395161   
+55357     8400.0          6.712            43800        0.315068   
+46275     7800.0          6.449            41300        0.273608   
+19184    10500.0          7.605            52200        0.425287   
+...          ...            ...              ...             ...   
+67976     9400.0          7.105            47500        0.368421   
+2126     10200.0          7.442            50600        0.407115   
+40522    10900.0          7.763            53700        0.441341   
+25133     8500.0          6.743            44100        0.319728   
+71225    10200.0          7.443            50600        0.407115   
+
+       num_of_accounts  derogatory_marks  total_debt  
+50304                4                 0       18100  
+25218                4                 0       19600  
+55357                3                 0       13800  
+46275                2                 0       11300  
+19184                4                 1       22200  
+...                ...               ...         ...  
+67976                3                 0       17500  
+2126                 4                 1       20600  
+40522                5                 1       23700  
+25133                3                 0       14100  
+71225                4                 1       20600  
+
+[19384 rows x 7 columns]
+
+
+
+65792    0
+16761    0
+53880    0
+26598    0
+49443    0
+        ..
+42104    0
+63856    0
+8964     0
+71480    0
+70863    0
+Name: loan_status, Length: 58152, dtype: int64
+
+
+
+50304    0
+25218    0
+55357    0
+46275    0
+19184    0
+        ..
+67976    0
+2126     0
+40522    0
+25133    0
+71225    0
+Name: loan_status, Length: 19384, dtype: int64
+
+
+
+[[-0.33608453 -0.33215052 -0.33609115 ... -0.43268685 -0.67251614
+  -0.33609115]
+ [-0.57439446 -0.5968525  -0.59827032 ... -0.43268685 -0.67251614
+  -0.59827032]
+ [ 0.37884525  0.38792859  0.39086018 ...  0.61492768  1.04486303
+   0.39086018]
+ ...
+ [-0.09777461 -0.09997548 -0.09774645 ...  0.09112041 -0.67251614
+  -0.09774645]
+ [ 0.33118326  0.34867194  0.35510848 ...  0.09112041  1.04486303
+   0.35510848]
+ [ 0.37884525  0.39017183  0.39086018 ...  0.61492768  1.04486303
+   0.39086018]]
+
+
+
+[[-0.14762253 -0.13012047 -0.13560032 ...  0.09082641 -0.67835645
+  -0.13560032]
+ [ 0.0448291   0.0476378   0.04485256 ...  0.09082641 -0.67835645
+   0.04485256]
+ [-0.67686449 -0.6577342  -0.65289857 ... -0.43819376 -0.67835645
+  -0.65289857]
+ ...
+ [ 0.52595815  0.53222724  0.53809043 ...  0.61984659  1.04140047
+   0.53809043]
+ [-0.62875158 -0.62263543 -0.616808   ... -0.43819376 -0.67835645
+  -0.616808  ]
+ [ 0.18916781  0.16991738  0.16515448 ...  0.09082641  1.04140047
+   0.16515448]]
+
+
+
+       loan_size  interest_rate  borrower_income  debt_to_income  \
+65792  -0.336085      -0.332151        -0.336091       -0.291040   
+16761  -0.574394      -0.596852        -0.598270       -0.684796   
+53880   0.378845       0.387929         0.390860        0.628133   
+26598  -0.574394      -0.566569        -0.562519       -0.628809   
+49443  -1.003352      -0.984933        -0.979622       -1.332966   
+...          ...            ...              ...             ...   
+42104   0.045211       0.024524         0.021426        0.189380   
+63856  -0.097775      -0.088759        -0.085829        0.051495   
+8964   -0.097775      -0.099975        -0.097746        0.035858   
+71480   0.331183       0.348672         0.355108        0.587951   
+70863   0.378845       0.390172         0.390860        0.628133   
+
+       num_of_accounts  derogatory_marks  total_debt  
+65792        -0.432687         -0.672516   -0.336091  
+16761        -0.432687         -0.672516   -0.598270  
+53880         0.614928          1.044863    0.390860  
+26598        -0.432687         -0.672516   -0.562519  
+49443        -0.956494         -0.672516   -0.979622  
+...                ...               ...         ...  
+42104         0.091120         -0.672516    0.021426  
+63856         0.091120         -0.672516   -0.085829  
+8964          0.091120         -0.672516   -0.097746  
+71480         0.091120          1.044863    0.355108  
+70863         0.614928          1.044863    0.390860  
+
+[58152 rows x 7 columns]
+
+
+
+       loan_size  interest_rate  borrower_income  debt_to_income  \
+50304  -0.147623      -0.130120        -0.135600       -0.015663   
+25218   0.044829       0.047638         0.044853        0.217543   
+55357  -0.676864      -0.657734        -0.652899       -0.772710   
+46275  -0.965542      -0.955508        -0.953653       -1.285323   
+19184   0.333507       0.353337         0.357638        0.590016   
+...          ...            ...              ...             ...   
+67976  -0.195735      -0.212772        -0.207781       -0.113069   
+2126    0.189168       0.168785         0.165154        0.365331   
+40522   0.525958       0.532227         0.538090        0.788497   
+25133  -0.628752      -0.622635        -0.616808       -0.715102   
+71225   0.189168       0.169917         0.165154        0.365331   
+
+       num_of_accounts  derogatory_marks  total_debt  
+50304         0.090826         -0.678356   -0.135600  
+25218         0.090826         -0.678356    0.044853  
+55357        -0.438194         -0.678356   -0.652899  
+46275        -0.967214         -0.678356   -0.953653  
+19184         0.090826          1.041400    0.357638  
+...                ...               ...         ...  
+67976        -0.438194         -0.678356   -0.207781  
+2126          0.090826          1.041400    0.165154  
+40522         0.619847          1.041400    0.538090  
+25133        -0.438194         -0.678356   -0.616808  
+71225         0.090826          1.041400    0.165154  
+
+[19384 rows x 7 columns]
+
+
+
+      loan_size  interest_rate  borrower_income  debt_to_income  \
+0     -0.622056      -0.632744        -0.634022       -0.741548   
+1      1.046113       1.051927         1.058225        1.302037   
+2      0.140535       0.117619         0.116764        0.307795   
+3      0.188197       0.205105         0.200184        0.408354   
+4     -0.097775      -0.098854        -0.097746        0.035858   
+...         ...            ...              ...             ...   
+3775   4.334790       4.337148         4.335465        3.331717   
+3776   3.905832       3.914297         3.918362        3.148909   
+3777   4.477776       4.467255         4.466555        3.386123   
+3778   4.716086       4.717376         4.716816        3.486245   
+3779   2.571297       2.551531         2.547880        2.420635   
+
+      num_of_accounts  derogatory_marks  total_debt  
+0           -0.432687         -0.672516   -0.634022  
+1            1.138735          1.044863    1.058225  
+2            0.091120          1.044863    0.116764  
+3            0.091120          1.044863    0.200184  
+4            0.091120         -0.672516   -0.097746  
+...               ...               ...         ...  
+3775         4.281579          2.762242    4.335465  
+3776         3.757771          2.762242    3.918362  
+3777         4.281579          2.762242    4.466555  
+3778         4.805386          2.762242    4.716816  
+3779         2.710157          2.762242    2.547880  
+
+[3780 rows x 7 columns]
+
+
+
+0       0
+1       0
+2       0
+3       0
+4       0
+       ..
+3775    1
+3776    1
+3777    1
+3778    1
+3779    1
+Name: loan_status, Length: 3780, dtype: int64
+
+
+
+      loan_size  interest_rate  borrower_income  debt_to_income  \
+0     -0.622056      -0.632744        -0.634022       -0.741548   
+1      1.046113       1.051927         1.058225        1.302037   
+2      0.140535       0.117619         0.116764        0.307795   
+3      0.188197       0.205105         0.200184        0.408354   
+4     -0.097775      -0.098854        -0.097746        0.035858   
+...         ...            ...              ...             ...   
+3775   4.334790       4.337148         4.335465        3.331717   
+3776   3.905832       3.914297         3.918362        3.148909   
+3777   4.477776       4.467255         4.466555        3.386123   
+3778   4.716086       4.717376         4.716816        3.486245   
+3779   2.571297       2.551531         2.547880        2.420635   
+
+      num_of_accounts  derogatory_marks  total_debt  
+0           -0.432687         -0.672516   -0.634022  
+1            1.138735          1.044863    1.058225  
+2            0.091120          1.044863    0.116764  
+3            0.091120          1.044863    0.200184  
+4            0.091120         -0.672516   -0.097746  
+...               ...               ...         ...  
+3775         4.281579          2.762242    4.335465  
+3776         3.757771          2.762242    3.918362  
+3777         4.281579          2.762242    4.466555  
+3778         4.805386          2.762242    4.716816  
+3779         2.710157          2.762242    2.547880  
+
+[3780 rows x 7 columns]
+
+
+
+0       0
+1       0
+2       0
+3       0
+4       0
+       ..
+3775    1
+3776    1
+3777    1
+3778    1
+3779    1
+Name: loan_status, Length: 3780, dtype: int64
+
+
+
+      loan_size  interest_rate  borrower_income  debt_to_income  \
+0      0.807803       0.796759         0.796046        1.053392   
+1     -0.479070      -0.480204        -0.479098       -0.501064   
+2     -1.098676      -1.082026        -1.086877       -1.533902   
+3      4.811410       4.795890         4.800237        3.518575   
+4      0.283521       0.296552         0.295522        0.519944   
+...         ...            ...              ...             ...   
+3775   4.334790       4.337148         4.335465        3.331717   
+3776   3.905832       3.914297         3.918362        3.148909   
+3777   4.477776       4.467255         4.466555        3.386123   
+3778   4.716086       4.717376         4.716816        3.486245   
+3779   2.571297       2.551531         2.547880        2.420635   
+
+      num_of_accounts  derogatory_marks  total_debt  
+0            0.614928          1.044863    0.796046  
+1           -0.432687         -0.672516   -0.479098  
+2           -0.956494         -0.672516   -1.086877  
+3            4.805386          2.762242    4.800237  
+4            0.091120          1.044863    0.295522  
+...               ...               ...         ...  
+3775         4.281579          2.762242    4.335465  
+3776         3.757771          2.762242    3.918362  
+3777         4.281579          2.762242    4.466555  
+3778         4.805386          2.762242    4.716816  
+3779         2.710157          2.762242    2.547880  
+
+[3780 rows x 7 columns]
+
+
+
+0       0
+1       0
+2       0
+3       0
+4       0
+       ..
+3775    1
+3776    1
+3777    1
+3778    1
+3779    1
+Name: loan_status, Length: 3780, dtype: int64
+
+
+
+        loan_size  interest_rate  borrower_income  debt_to_income  \
+0       -0.336085      -0.332151        -0.336091       -0.291040   
+1       -0.574394      -0.596852        -0.598270       -0.684796   
+2        0.378845       0.387929         0.390860        0.628133   
+3       -0.574394      -0.566569        -0.562519       -0.628809   
+4       -1.003352      -0.984933        -0.979622       -1.332966   
+...           ...            ...              ...             ...   
+112519   5.764650       5.758645         5.754481        3.855372   
+112520   5.097382       5.076196         5.074333        3.621331   
+112521   4.811410       4.823357         4.824072        3.527720   
+112522   4.811410       4.828311         4.824072        3.527720   
+112523   4.334790       4.344999         4.347382        3.336721   
+
+        num_of_accounts  derogatory_marks  total_debt  
+0             -0.432687         -0.672516   -0.336091  
+1             -0.432687         -0.672516   -0.598270  
+2              0.614928          1.044863    0.390860  
+3             -0.432687         -0.672516   -0.562519  
+4             -0.956494         -0.672516   -0.979622  
+...                 ...               ...         ...  
+112519         5.853000          4.479621    5.754481  
+112520         4.805386          4.479621    5.074333  
+112521         4.805386          2.762242    4.824072  
+112522         4.805386          2.762242    4.824072  
+112523         4.281579          2.762242    4.347382  
+
+[112524 rows x 7 columns]
+
+
+
+0         0
+1         0
+2         0
+3         0
+4         0
+         ..
+112519    1
+112520    1
+112521    1
+112522    1
+112523    1
+Name: loan_status, Length: 112524, dtype: int64
+
+
+
+        loan_size  interest_rate  borrower_income  debt_to_income  \
+0       -0.336085      -0.332151        -0.336091       -0.291040   
+1       -0.574394      -0.596852        -0.598270       -0.684796   
+2        0.378845       0.387929         0.390860        0.628133   
+3       -0.574394      -0.566569        -0.562519       -0.628809   
+4       -1.003352      -0.984933        -0.979622       -1.332966   
+...           ...            ...              ...             ...   
+110717   5.764650       5.758645         5.754481        3.855372   
+110718   5.097382       5.076196         5.074333        3.621331   
+110719   4.811410       4.823357         4.824072        3.527720   
+110720   4.811410       4.828311         4.824072        3.527720   
+110721   4.334790       4.344999         4.347382        3.336721   
+
+        num_of_accounts  derogatory_marks  total_debt  
+0             -0.432687         -0.672516   -0.336091  
+1             -0.432687         -0.672516   -0.598270  
+2              0.614928          1.044863    0.390860  
+3             -0.432687         -0.672516   -0.562519  
+4             -0.956494         -0.672516   -0.979622  
+...                 ...               ...         ...  
+110717         5.853000          4.479621    5.754481  
+110718         4.805386          4.479621    5.074333  
+110719         4.805386          2.762242    4.824072  
+110720         4.805386          2.762242    4.824072  
+110721         4.281579          2.762242    4.347382  
+
+[110722 rows x 7 columns]
+
+
+
+0         0
+1         0
+2         0
+3         0
+4         0
+         ..
+110717    1
+110718    1
+110719    1
+110720    1
+110721    1
+Name: loan_status, Length: 110722, dtype: int64
+
+
+Timepoint: 2024/05/01 17:21:24
+[1mThe logistic regression model best accuracy score is 99.44%
+
+The optimal model hyperparameters are:
+{'class_weight': None, 'solver': 'lbfgs'}[0m
+
+
+Timepoint: 2024/05/01 17:21:31
+[1mThe logistic regression model with random undersampling best accuracy score is 99.47%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'solver': 'lbfgs'}[0m
+
+
+Timepoint: 2024/05/01 17:25:44
+[1mThe logistic regression model with random oversampling best accuracy score is 99.43%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'solver': 'liblinear'}[0m
+
+
+Timepoint: 2024/05/01 17:25:49
+[1mThe logistic regression model with cluster centroid best accuracy score is 94.31%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'solver': 'liblinear'}[0m
+
+
+Timepoint: 2024/05/01 17:29:46
+[1mThe logistic regression model with SMOTE best accuracy score is 99.44%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'solver': 'liblinear'}[0m
+
+
+Timepoint: 2024/05/01 17:31:08
+[1mThe logistic regression model with SMOTEENN best accuracy score is 99.80%
+
+The optimal model hyperparameters are:
+{'class_weight': None, 'solver': 'liblinear'}[0m
+
+
+Timepoint: 2024/05/01 17:31:15
+[1mThe decision tree model best accuracy score is 99.09%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'gini', 'splitter': 'best'}[0m
+
+
+Timepoint: 2024/05/01 17:31:16
+[1mThe decision tree model with random undersampling best accuracy score is 99.15%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'gini', 'splitter': 'random'}[0m
+
+
+Timepoint: 2024/05/01 17:31:36
+[1mThe decision tree model with random oversampling best accuracy score is 99.53%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'entropy', 'splitter': 'best'}[0m
+
+
+Timepoint: 2024/05/01 17:31:38
+[1mThe decision tree model with cluster centroid best accuracy score is 89.05%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'entropy', 'splitter': 'random'}[0m
+
+
+Timepoint: 2024/05/01 17:32:04
+[1mThe decision tree model with SMOTE best accuracy score is 99.58%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'gini', 'splitter': 'best'}[0m
+
+
+Timepoint: 2024/05/01 17:32:12
+[1mThe decision tree model with SMOTEENN best accuracy score is 99.99%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'gini', 'splitter': 'best'}[0m
+
+
+Timepoint: 2024/05/01 17:37:25
+[1mThe random forest model best accuracy score is 99.25%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced_subsample', 'criterion': 'entropy'}[0m
+
+
+Timepoint: 2024/05/01 17:38:00
+[1mThe random forest model with random undersampling best accuracy score is 99.18%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'gini'}[0m
+
+
+Timepoint: 2024/05/01 17:54:38
+[1mThe random forest model with random oversampling best accuracy score is 99.53%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'gini'}[0m
+
+
+Timepoint: 2024/05/01 17:55:30
+[1mThe random forest model with cluster centroid best accuracy score is 90.42%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced', 'criterion': 'gini'}[0m
+
+
+Timepoint: 2024/05/01 18:16:55
+[1mThe random forest model with SMOTE best accuracy score is 99.58%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced_subsample', 'criterion': 'gini'}[0m
+
+
+Timepoint: 2024/05/01 18:25:38
+[1mThe random forest model with SMOTEENN best accuracy score is 99.98%
+
+The optimal model hyperparameters are:
+{'class_weight': 'balanced_subsample', 'criterion': 'entropy'}[0m
+
+
+Timepoint: 2024/05/01 18:26:11
+[1mThe knn model best accuracy score is 99.41%
+
+The optimal model hyperparameters are:
+{'algorithm': 'auto'}[0m
+
+
+Timepoint: 2024/05/01 18:26:13
+[1mThe knn model with random undersampling best accuracy score is 99.47%
+
+The optimal model hyperparameters are:
+{'algorithm': 'auto'}[0m
+
+
+Timepoint: 2024/05/01 18:27:34
+[1mThe knn model with random oversampling best accuracy score is 99.44%
+
+The optimal model hyperparameters are:
+{'algorithm': 'auto'}[0m
+
+
+Timepoint: 2024/05/01 18:27:36
+[1mThe knn model with cluster centroid best accuracy score is 94.37%
+
+The optimal model hyperparameters are:
+{'algorithm': 'auto'}[0m
+
+
+Timepoint: 2024/05/01 18:28:59
+[1mThe knn model with SMOTE best accuracy score is 99.61%
+
+The optimal model hyperparameters are:
+{'algorithm': 'auto'}[0m
+
+
+Timepoint: 2024/05/01 18:30:22
+[1mThe knn model with SMOTEENN best accuracy score is 99.96%
+
+The optimal model hyperparameters are:
+{'algorithm': 'auto'}[0m
+
