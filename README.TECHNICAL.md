@@ -24,7 +24,7 @@ pandasx.py
 
 timex.py
 
-If the folders, logs and images, are not present, the Google Colab Notebook will create them.  The Google Colab Notebook, credit_risk_classification_colab.ipynb, needs the csv file, lending_data.csv, in the folder, resources, to execute. To place the Google Colab Notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. If the program is in Log Mode, it writes information to the log file. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files in the Images Folder.
+If the folders, logs and images, are not present, the Google Colab Notebook will create them.  The Google Colab Notebook, credit_risk_classification_colab.ipynb, needs the csv file, lending_data.csv, in the folder, resources, to execute. To place the Google Colab Notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. In Log Mode, the notebook writes information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files in the Images Folder.
 
 ----
 
@@ -50,9 +50,9 @@ n/a
 
 #### Software
 
-Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
+Google Colab, Matplotlib, Numpy, Pandas, Python 3.11.5, scikit-learn
 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ----
 
@@ -261,6 +261,8 @@ Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 ### **References:**
 
 ----
+
+[Google Colab Documentation](https://cloud.google.com/colab/docs)
 
 [imbalanced-learn documentation](https://imbalanced-learn.org/stable/)
 
