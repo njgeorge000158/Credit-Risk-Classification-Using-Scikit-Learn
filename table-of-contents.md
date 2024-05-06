@@ -34,21 +34,21 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **3.2: Display the Model Scores Using the Scaled Training and Testing Data**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **3.3: Calculate Training and Test Predictions**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 # <br><br> **Section 4: Decision Tree Models**
 > ## <br> **4.1: Fit Models by Using the Scaled Training Data**
 >> ### **Original**
@@ -56,21 +56,21 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **4.2: Display the Model Scores Using the Scaled Training and Testing Data**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **4.3: Calculate Training and Test Predictions**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 # <br><br> **Section 5: Random Forest Models**
 > ## <br> **5.1: Fit Models by Using the Scaled Training Data**
 >> ### **Original**
@@ -78,21 +78,21 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **5.2: Display the Model Scores Using the Scaled Training and Testing Data**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **5.3: Calculate Training and Test Predictions**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 # <br><br> **Section 6: Support Vector Machine (SVM) Models**
 > ## <br> **6.1: Fit Models by Using the Scaled Training Data**
 >> ### **Original**
@@ -100,21 +100,21 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **6.2: Display the Model Scores Using the Scaled Training and Testing Data**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **6.3: Calculate Training and Test Predictions**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 # <br><br> **Section 7: K-Nearest Neighbor (KNN) Models**
 > ## <br> **7.1: Fit Models by Using the Scaled Training Data**
 >> ### **Original**
@@ -122,21 +122,21 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **7.2: Display the Model Scores Using the Scaled Training and Testing Data**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **7.3: Calculate Training and Test Predictions**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 # <br><br> **Section 8: Gaussian Naive Bayes (GNB) Models**
 > ## <br> **8.1: Fit Models by Using the Scaled Training Data**
 >> ### **Original**
@@ -144,21 +144,21 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **8.2: Display the Model Scores Using the Scaled Training and Testing Data**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **8.3: Calculate Training and Test Predictions**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 # <br><br> **Section 9: Evaluate Model Performance**
 > ## <br> **9.1: Logistic Regression**
 >> ### **Original**
@@ -166,42 +166,42 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **9.2: Decision Tree**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **9.3: Random Forest**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **9.4: Support Vector Machine (SVM)**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **9.5: K-Nearest Neighbor (KNN)**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **9.6: Gaussian Naive Bayes (GNB)**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **9.7: Model Performance Results**
 >> ### **Performance Matrix**
 >> ### **Performance Ranking**
@@ -211,37 +211,37 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **10.2: Decision Tree**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **10.3: Random Forest**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **10.4: Support Vector Machine (SVM)**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **10.5: K-Nearest Neighbor (KNN)**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **10.6: Gaussian Naive Bayes (GNB))**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 
 ----
 
@@ -277,53 +277,53 @@
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **3.2: Decision Tree**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **3.3: Random Forest**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **3.4: K-Nearest Neighbor (KNN)**
 >> ### **Original**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 # <br><br> **Section 4: Save Grid Search Models To Files**
 > ## <br> **4.1: Logistic Regression**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **4.2: Decision Tree**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **4.3: Random Forest**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 > ## <br> **4.4: K-Nearest Neighbor (KNN)**
 >> ### **Random Undersampling**
 >> ### **Random Oversampling**
 >> ### **Cluster Centroids**
 >> ### **SMOTE**
->> ### **SMOTEEN**
+>> ### **SMOTEENN**
 
 ----
 
